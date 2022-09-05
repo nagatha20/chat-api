@@ -40,10 +40,6 @@ const UserModel = new mongoose.Schema(
        type: String,
        required: true 
     },
-    tel: {
-        type: Number,
-        required: true
-    },
     isAdmin: {
       type: Boolean,
       default: false,
